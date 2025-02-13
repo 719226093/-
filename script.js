@@ -1,12 +1,14 @@
+document.body.style.backgroundColor = "lightgrey"; // 设置背景颜色为浅灰色
+
 Telegram.WebApp.ready(); // 确保 Web App API 已准备就绪
 
 const buttonContainer = document.getElementById('buttonContainer');
 
 // 按钮配置数据 (您可以根据需要修改)
 const buttonsData = [
-    { text: "优惠链接 1", url: "https://mostourigoatik.com/4/8904850" }, // 替换为您的 Monetag 链接
-    { text: "推广链接 2", url: "https://mostourigoatik.com/4/8905048" }, // 替换为您的 Monetag 链接
-    { text: "更多优惠", url: "https://mostourigoatik.com/4/8904863" }  // 替换为您的 Monetag 链接
+    { text: "优惠链接 1", url: "YOUR_MONETAG_LINK_1" }, // 替换为您的 Monetag 链接
+    { text: "推广链接 2", url: "YOUR_MONETAG_LINK_2" }, // 替换为您的 Monetag 链接
+    { text: "更多优惠", url: "YOUR_MONETAG_LINK_3" }  // 替换为您的 Monetag 链接
     // ... 更多按钮
 ];
 
