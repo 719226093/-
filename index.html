@@ -4,9 +4,22 @@
     <title>Monetag Link App</title>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <style>
-        /* 简单的 CSS 样式，您可以根据需要自定义 */
-        body { font-family: sans-serif; }
-        .button-container { display: flex; flex-direction: column; align-items: center; margin-top: 20px; }
+        /* 修改后的 CSS 样式 - 实现居中 */
+        body {
+            font-family: sans-serif;
+            display: flex;              /* 启用 Flexbox 布局 */
+            flex-direction: column;     /* 垂直排列内容 */
+            align-items: center;        /* 水平居中子元素 */
+            justify-content: flex-start; /* 垂直方向内容顶部对齐 (您可以根据需要调整) */
+            min-height: 100vh;         /* 确保 body 至少占据整个视口高度 */
+            margin: 0;                 /* 移除 body 默认 margin，避免影响居中 */
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
         .button-link {
             padding: 10px 20px;
             margin-bottom: 10px;
@@ -22,7 +35,7 @@
 <body>
     <h1>Monetag Links</h1>
     <div class="button-container" id="buttonContainer">
-        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
