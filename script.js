@@ -6,9 +6,8 @@ const buttonContainer = document.getElementById('buttonContainer');
 
 // 按钮配置数据 (您可以根据需要修改)
 const buttonsData = [
-    { text: "Offer 1", url: "https://theeghumoaps.com/4/8940747" }, // 替换为您的 Monetag 链接
-    { text: "Offer 2", url: "https://theeghumoaps.com/4/8940748" }, // 替换为您的 Monetag 链接
-    { text: "Offer 3", url: "https://theeghumoaps.com/4/8925583" }  // 替换为您的 Monetag 链接
+    { text: "Offer 1", url: "https://theeghumoaps.com/4/8940769" }, // 替换为您的 Monetag 链接
+    { text: "Offer 2", url: "https://theeghumoaps.com/4/8940779" }, // 替换为您的 Monetag 链接
     // ... 更多按钮
 ];
 
