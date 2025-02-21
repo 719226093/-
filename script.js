@@ -13,9 +13,8 @@ offerButton.className = 'offer-button';
 offerButton.style.fontSize = "20px"; // 设置字体大小
 offerButton.style.padding = "15px 30px"; // 设置按钮内边距，使按钮更大
 offerButton.style.borderRadius = "8px"; // 设置圆角，使按钮看起来更圆润
-offerButton.style.backgroundColor = "#4CAF50"; // 设置按钮背景色（绿色）
-offerButton.style.color = "white"; // 设置文字颜色为白色
-offerButton.style.border = "none"; // 去除按钮边框
+offerButton.style.color = "black"; // 设置按钮文字颜色为黑色
+offerButton.style.border = "2px solid #000"; // 设置按钮的边框颜色为黑色
 offerButton.style.cursor = "pointer"; // 设置鼠标指针为点击样式
 
 // 按钮配置数据
